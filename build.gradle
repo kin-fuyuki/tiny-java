@@ -1,0 +1,6 @@
+plugins {
+    id 'java'
+}
+
+group = 'tiny-java'
+version = '0.8'
