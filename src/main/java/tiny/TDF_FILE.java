@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.*;
 import java.util.function.Function;
 
-class TDF_FILE {
+public class TDF_FILE {
     private static final String TINYDEFINEHEADER = "0000_TDF_HEADER_DEFINE";
 
     private HashMap<String, TDF_DATA> data = null;
