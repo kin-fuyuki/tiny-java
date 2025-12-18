@@ -651,7 +651,7 @@ public class TDF_FILE {
                     str.append("' ").append(key).append(" ").append((Character) val.data).append("\n");
                     break;
                 case TDF_BLOCK:
-                    str.append("S ").append(key).append("\n").append((String) val.data).append("\\\n");
+                    str.append("S ").append(key).append("\n").append((String) val.data).append("\n\\\n");
                     break;
                 case TDF_BOOL:
                     str.append("B ").append(key).append(" ").append(((Boolean) val.data) ? "T" : "F").append("\n");
