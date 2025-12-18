@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'tiny'
-version = '0.8'
+version = '0.8_1'
 publishing {
     publications {
         mavenJava(MavenPublication) {
